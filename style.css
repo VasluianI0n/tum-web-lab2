@@ -1,3 +1,12 @@
+body{
+    background-image: url('about-background.jpg'); /* Replace 'background_image_url.jpg' with the URL of your background image */
+    background-size: cover; /* Cover the entire body */
+    background-position: center; /* Center the background image */
+    font-family: Arial, sans-serif; /* Set default font family */
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+
+}
 .upper-menu {
     display: flex;
     justify-content: space-between;
@@ -91,4 +100,33 @@
     height: 20px;
     width: auto;
     padding-right: 20px;
+}
+
+.about-description {
+    font-size: 20px;
+    color: #8421F3;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.about-big-description {
+    font-size: 40px;
+    color: #fff;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 25px;
+    padding-left: 625px;
+    padding-right: 625px;
+    line-height: 125%;
+}
+
+.YOU {
+    font-size: 40px;
+    color:#8421F3;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-weight: bold;
+    text-align: center;
 }
