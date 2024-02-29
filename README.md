@@ -21,3 +21,5 @@ The pages that an user can navigate through are:
 ![Screenshot 2024-03-01 003146](https://github.com/VasluianI0n/tum-web-lab2/assets/79792299/73d5e29a-9208-4e37-be02-3c2ae7a4a0a6)
 
 ## Link to the site:
+
+https://vasluiani0n.github.io/tum-web-lab2/
