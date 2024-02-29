@@ -1,6 +1,6 @@
 # Landing Crypto Page 
 
-This is a simple for the Crypto website called Pendium. Users can navigate and see information about it through the main page.
+This is a simple page for the Crypto website called Pendium. Users can navigate and see information about it through the main page.
 The pages that an user can navigate through are:
 
 ## Pages
