@@ -1,16 +1,66 @@
 body{
-    background-image: url('about-background.jpg'); /* Replace 'background_image_url.jpg' with the URL of your background image */
-    background-size: cover; /* Cover the entire body */
-    background-position: center; /* Center the background image */
+    background-image: url('about-background.jpg'); 
+    background-size: cover; 
+    background-position: center; 
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    min-height: 100vh; /* Ensure the body takes up the full viewport height */
-    font-family: Arial, sans-serif; /* Set default font family */
-    margin: 0; /* Remove default body margin */
-    padding: 0; /* Remove default body padding */
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
 
 }
+
+#mascot-container{
+    position: relative;
+    display: inline-block;
+  }
+  .mascot-message { 
+    position: fixed;
+    display: none;
+    bottom: 40px;
+    left: 100px;
+    transform: translateY(-50%);
+    background-color: #def1e0;
+    color: #2E055D;
+    padding: 10px;
+    border-radius: 5px;
+    transition: opacity 0.3s ease;
+    pointer-events: none; 
+  }
+  
+  #mascot-container:hover .mascot-message{
+    display: block;
+  }
+  
+  
+  #mascot {
+    position:absolute;  
+    display:none;
+    width: 80px;
+    height: 80px;
+    background-size: contain;
+    position: fixed;
+    background-repeat: no-repeat;
+    bottom: 30px;
+    left: 10px;
+    z-index: 1000;
+    animation: bounce 2s ease infinite; 
+    transition: transform 0.3s ease;
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-20px);
+    }
+    60% {
+      transform: translateY(-10px);
+    }
+  }
 
 .menu-image {
     display: none;
