@@ -10,10 +10,12 @@
     
     <body style="background-color: #000000;">
         <div class="upper-menu">
-            <a href="index.html" class="logo">
+            <img src="menu.png" alt="Menu" id="menuIcon" class="menu-image" onclick="toggleMenu()">
+
+            <a href="index.html" class="logo" id="logo" >
                 <img src="logo-no-background.png" alt="Logo">
             </a>
-            <ul class="menu-items">
+            <ul class="menu-items" id="menuItems">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About us</a></li>
                 <li><a href="services.html">Services</a></li>
@@ -31,5 +33,6 @@
                 <h2>Wallet Integration</h2>
                 <p>Integrate your favorite wallets seamlessly with our platform for easy management of your funds.</p>
         </div>
+        <script src="script.js"></script>
     </body>
 </html>

@@ -10,10 +10,12 @@
     
     <body style="background-color: #000000;">
         <div class="upper-menu">
-            <a href="index.html" class="logo">
+            <img src="menu.png" alt="Menu" id="menuIcon" class="menu-image" onclick="toggleMenu()">
+
+            <a href="index.html" class="logo" id="logo" >
                 <img src="logo-no-background.png" alt="Logo">
             </a>
-            <ul class="menu-items">
+            <ul class="menu-items" id="menuItems">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About us</a></li>
                 <li><a href="services.html">Services</a></li>
@@ -34,5 +36,6 @@
                 <p><img src="check.png">Trusted by over 80 million users worldwide</p>
             </div>
         </div>
+        <script src="script.js"></script>
     </body>
 </html>

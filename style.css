@@ -11,6 +11,10 @@ body{
     padding: 0; /* Remove default body padding */
 
 }
+
+.menu-image {
+    display: none;
+}
 .upper-menu {
     position: fixed;
     top: 0;
@@ -209,6 +213,8 @@ input[type=text], input[type=password] {
     text-decoration: none;
   }
 
+
+
   @media only screen and (max-width: 768px) {
     .home-description {
         font-size: 40px;
@@ -322,12 +328,12 @@ input[type=text], input[type=password] {
         font-size: 16px;
       }
     
-      .field{
+    .field{
         padding: 20px;
         align-items: center;
-      }
+    }
     
-      .submit-button{
+    .submit-button{
         background-color: #591f9c;
         border: none;
         border-radius: 8px;
@@ -340,9 +346,57 @@ input[type=text], input[type=password] {
         font-size: 16px;
         margin-top:-10px;
         margin-bottom: 20px;
-      }
-      .submit-button a{
+    }
+    .submit-button a{
         color: white;
         text-decoration: none;
-      }
+    }
+
+    
+
+    .menu-items {
+        display: none; /* Hide menu items by default on mobile */
+        position: absolute;
+        top: 60px; /* Adjust position as needed */
+        right: 0;
+        left: 0; /* Set left to 0 to make it span the full width */
+        background-color: #333;
+        padding: 10px;
+    }
+
+    .menu-items.show {
+        display: block; /* Show menu items when toggled */
+    }
+
+    .menu-items.show li {
+        display: block; /* Display list items vertically */
+        margin-bottom: 10px;
+    }
+
+
+    .menu-items li:last-child {
+        margin-bottom: 0;
+    }
+
+    .menu-items li a {
+        display: block;
+        padding: 10px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .menu-items li a:hover {
+        background-color: #2E055D;
+    }
+
+    .logo {
+        display:none;
+    }
+
+    .menu-image {
+        display: inline-block; /* Display the menu image */
+        height: 30px; /* Adjust height as needed */
+        width: auto; /* Maintain aspect ratio */
+        cursor: pointer;
+    }
   }
