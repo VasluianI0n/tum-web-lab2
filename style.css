@@ -166,32 +166,8 @@ body{
     padding-right: 30px;
 }
 .custom-padding {
-    padding-top: 150px; /* Adjust padding-top value here */
+    padding-top: 150px; 
   }
-/* .download-button {
-    position: absolute;
-    text-align: center;
-    padding-top: 200px; 
-    left: 45%;
-}
-
-.download-text {
-    display: block;
-    font-size: 24px; 
-    color: #FFFFFF; 
-}
-
-.download-button .download-text {
-    background-color: #24ac24; 
-    padding: 20px 40px; 
-    border-radius: 10px;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.download-button .download-text:hover {
-    background-color: #008000;
-} */
 
 .about-description {
     font-size: 60px;
@@ -459,21 +435,21 @@ input[type=text], input[type=password] {
     
 
     .menu-items {
-        display: none; /* Hide menu items by default on mobile */
+        display: none; 
         position: absolute;
-        top: 60px; /* Adjust position as needed */
+        top: 60px; 
         right: 0;
-        left: 0; /* Set left to 0 to make it span the full width */
+        left: 0; 
         background-color: #333;
         padding: 10px;
     }
 
     .menu-items.show {
-        display: block; /* Show menu items when toggled */
+        display: block; 
     }
 
     .menu-items.show li {
-        display: block; /* Display list items vertically */
+        display: block; 
         margin-bottom: 10px;
     }
 
@@ -498,9 +474,9 @@ input[type=text], input[type=password] {
     }
 
     .menu-image {
-        display: inline-block; /* Display the menu image */
-        height: 30px; /* Adjust height as needed */
-        width: auto; /* Maintain aspect ratio */
+        display: inline-block; 
+        height: 30px; 
+        width: auto; 
         cursor: pointer;
     }
   }
