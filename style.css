@@ -165,8 +165,10 @@ body{
     width: auto;
     padding-right: 30px;
 }
-
-.download-button {
+.custom-padding {
+    padding-top: 150px; /* Adjust padding-top value here */
+  }
+/* .download-button {
     position: absolute;
     text-align: center;
     padding-top: 200px; 
@@ -189,7 +191,7 @@ body{
 
 .download-button .download-text:hover {
     background-color: #008000;
-}
+} */
 
 .about-description {
     font-size: 60px;
